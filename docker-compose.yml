@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  assembly:
+    build: .
+    volumes:
+      - ./:/home/repos
+    stdin_open: true
+    tty: true
