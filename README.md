@@ -25,6 +25,7 @@
 
 3. В VSCode:
    - Откройте палитру команд (F1 или Ctrl+Shift+P)
+   - Либо нажмите на две стрелочки в левом нижнем углу
    - Выберите "Dev Containers: Attach to Running Container..."
    - Выберите контейнер "assembly-docker_assembly_1"
 
