@@ -4,6 +4,6 @@ services:
   assembly:
     build: .
     volumes:
-      - ./:/home/repos
+      - ./workspace:/home/repos
     stdin_open: true
     tty: true
