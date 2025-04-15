@@ -1,7 +1,7 @@
 {
     "name": "Assembly Development",
     "dockerComposeFile": ["../docker-compose.yml"],
-    "service": "assembly",
+    "service": "asm",
     "workspaceFolder": "/home/repos",
     "customizations": {
         "vscode": {
