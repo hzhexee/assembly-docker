@@ -36,7 +36,7 @@
 ### Компиляция и запуск 32-битного кода
 ```bash
 # Компиляция
-nasm -f elf32 -g -F dwarf file.asm -o file.o
+nasm -f elf32 file.asm -o file.o
 # Линковка
 gcc -m32 file.o -o file
 # Запуск
@@ -46,7 +46,7 @@ gcc -m32 file.o -o file
 ### Компиляция и запуск 64-битного кода
 ```bash
 # Компиляция
-nasm -f elf64 -g -F dwarf file.asm -o file.o
+nasm -f elf64 file.asm -o file.o
 # Линковка
 gcc file.o -o file
 # Запуск
